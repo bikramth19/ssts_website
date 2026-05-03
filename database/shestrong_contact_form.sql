@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS contact_enquiries (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(120) NOT NULL,
+    phone VARCHAR(40) NOT NULL,
+    email VARCHAR(180) NOT NULL,
+    service_interest VARCHAR(160) NOT NULL,
+    message TEXT NOT NULL,
+    ip_address VARCHAR(45) NULL,
+    user_agent TEXT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
