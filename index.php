@@ -6,19 +6,19 @@
   <title>Shestrong Technology Services | Software Development Company in India</title>
   <meta name="description" content="Shestrong Technology Services builds secure software for healthcare, education, ecommerce, payments, CCTV web integration, testing and IT consulting." />
   <meta name="keywords" content="software development company in India, healthcare software development, clinic management software, pharmacy management system, school management software, payment gateway integration India, CCTV live camera web integration" />
-  <link rel="canonical" href="https://shestrong.in/index.html" />
+  <link rel="canonical" href="https://shestrong.in/" />
   <meta property="og:title" content="Shestrong Technology Services | Software Development Company in India" />
   <meta property="og:description" content="Shestrong Technology Services builds secure software for healthcare, education, ecommerce, payments, CCTV web integration, testing and IT consulting." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://shestrong.in/index.html" />
+  <meta property="og:url" content="https://shestrong.in/" />
   <meta property="og:image" content="https://shestrong.in/assets/img/og-image.svg" />
   <meta name="theme-color" content="#4b126d" />
   <link rel="icon" href="assets/img/logo.png" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
   <style>
     .scroll-story .story-copy {
       align-self: flex-start;
@@ -69,18 +69,18 @@
         </div>
       </div>
       <div class="mobile-panel" id="mobilePanel">
-        <a class="nav-link " href="./">Home</a><a class="nav-link " href="about">About</a><a class="nav-link " href="services">Services</a><a class="nav-link active" href="portfolio">Portfolio</a><a class="nav-link " href="contact">Contact</a>
+        <a class="nav-link active" href="index.html">Home</a><a class="nav-link " href="about.html">About</a><a class="nav-link " href="services.html">Services</a><a class="nav-link " href="portfolio.html">Portfolio</a><a class="nav-link " href="contact.php">Contact</a>
         
         <div class="mobile-solutions">
           <strong>Solutions</strong>
-          <a href="healthcare-software">Healthcare Software</a>
-          <a href="education-software">Education Software</a>
-          <a href="web-app-development">Web & App Development</a>
-          <a href="payment-gateway-integration">Payment Gateway</a>
-          <a href="cctv-live-camera-web-solutions">CCTV Web Solutions</a>
-          <a href="software-testing-it-consulting">Testing & Consulting</a>
+          <a href="healthcare-software.html">Healthcare Software</a>
+          <a href="education-software.html">Education Software</a>
+          <a href="web-app-development.html">Web & App Development</a>
+          <a href="payment-gateway-integration.html">Payment Gateway</a>
+          <a href="cctv-live-camera-web-solutions.html">CCTV Web Solutions</a>
+          <a href="software-testing-it-consulting.html">Testing & Consulting</a>
         </div>
-        <a class="btn btn-primary" href="contact">Get a Free Consultation</a>
+        <a class="btn btn-primary" href="contact.php">Get a Free Consultation</a>
       </div>
     </header>
   <main>

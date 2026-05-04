@@ -6,12 +6,12 @@
   <title>About Shestrong Technology Services | Women-led IT Company</title>
   <meta name="description" content="Learn about Shestrong Technology Services, a women empowerment-driven IT company building reliable software, web, mobile, payment and CCTV solutions." />
   <meta name="keywords" content="women-led technology company, IT company India, software development company" />
-  <link rel="canonical" href="https://shestrong.in/about.html" />
+  <link rel="canonical" href="https://shestrong.in/about" />
   <meta property="og:title" content="About Shestrong Technology Services | Women-led IT Company" />
   <meta property="og:description" content="Learn about Shestrong Technology Services, a women empowerment-driven IT company building reliable software, web, mobile, payment and CCTV solutions." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://shestrong.in/about.html" />
-  <meta property="og:image" content="https://shestrong.in/assets/img/og-image.svg" />
+  <meta property="og:url" content="https://shestrong.in/about" />
+  <meta property="og:image" content="https://shestrong.in/assets/img/logo.png" />
   <meta name="theme-color" content="#4b126d" />
   <link rel="icon" href="assets/img/logo.png" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,35 +34,47 @@
   
     <header class="site-header" id="top">
       <div class="container nav-shell">
-        <a class="brand" href="index.html" aria-label="Shestrong Technology Services home">
-          <img src="assets/img/logo.svg" alt="Shestrong Technology Services logo" />
+        <a class="brand" href="./" aria-label="Shestrong Technology Services home">
+          <img src="assets/img/logo.png" alt="Shestrong Technology Services logo" />
           <span><strong>Shestrong</strong><small>Technology Services</small></span>
         </a>
         <nav class="main-nav" aria-label="Primary navigation">
-          <a class="nav-link " href="index.html">Home</a><a class="nav-link active" href="about.html">About</a><a class="nav-link " href="services.html">Services</a><a class="nav-link " href="portfolio.html">Portfolio</a><a class="nav-link " href="contact.php">Contact</a>
+          <a class="nav-link" href="./">Home</a>
+          <a class="nav-link  active" href="about">About</a>
+          <a class="nav-link " href="services">Services</a>
           <div class="nav-dropdown">
             <button class="nav-link dropdown-toggle" type="button">Solutions</button>
-            <div class="dropdown-menu"><a href="healthcare-software.html">Healthcare Software</a><a href="education-software.html">Education Software</a><a href="web-app-development.html">Web Application Development</a><a href="web-app-development.html#website-design">Website Design & Development</a><a href="web-app-development.html#ecommerce-apps">Ecommerce & Mobile App Development</a><a href="cctv-live-camera-web-solutions.html">CCTV Live Camera Web Management</a><a href="payment-gateway-integration.html#indian-payment-gateways">Indian Payment Gateway Integration</a><a href="payment-gateway-integration.html#crypto-payment-gateways">Worldwide Crypto Payment Gateway Integration</a></div>
+            <div class="dropdown-menu">
+              <a href="healthcare-software">Healthcare Software</a>
+              <a href="education-software">Education Software</a>
+              <a href="web-app-development">Web Application Development</a>
+              <a href="web-app-development#website-design">Website Design & Development</a>
+              <a href="web-app-development#ecommerce-apps">Ecommerce & Mobile App Development</a>
+              <a href="cctv-live-camera-web-solutions">CCTV Live Camera Web Management</a>
+              <a href="payment-gateway-integration#indian-payment-gateways">Indian Payment Gateway Integration</a>
+              <a href="payment-gateway-integration#crypto-payment-gateways">Worldwide Crypto Payment Gateway Integration</a>
+            </div>
           </div>
+          <a class="nav-link " href="contact">Contact</a>          
         </nav>
         <div class="nav-actions">
-          <a class="btn btn-small btn-ghost" href="contact.php">Free Consultation</a>
+          <a class="btn btn-small btn-ghost" href="contact">Free Consultation</a>
           <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
         </div>
       </div>
       <div class="mobile-panel" id="mobilePanel">
-        <a class="nav-link " href="index.html">Home</a><a class="nav-link active" href="about.html">About</a><a class="nav-link " href="services.html">Services</a><a class="nav-link " href="portfolio.html">Portfolio</a><a class="nav-link " href="contact.php">Contact</a>
+        <a class="nav-link " href="./">Home</a><a class="nav-link " href="about">About</a><a class="nav-link " href="services">Services</a><a class="nav-link active" href="portfolio">Portfolio</a><a class="nav-link " href="contact">Contact</a>
         
         <div class="mobile-solutions">
           <strong>Solutions</strong>
-          <a href="healthcare-software.html">Healthcare Software</a>
-          <a href="education-software.html">Education Software</a>
-          <a href="web-app-development.html">Web & App Development</a>
-          <a href="payment-gateway-integration.html">Payment Gateway</a>
-          <a href="cctv-live-camera-web-solutions.html">CCTV Web Solutions</a>
-          <a href="software-testing-it-consulting.html">Testing & Consulting</a>
+          <a href="healthcare-software">Healthcare Software</a>
+          <a href="education-software">Education Software</a>
+          <a href="web-app-development">Web & App Development</a>
+          <a href="payment-gateway-integration">Payment Gateway</a>
+          <a href="cctv-live-camera-web-solutions">CCTV Web Solutions</a>
+          <a href="software-testing-it-consulting">Testing & Consulting</a>
         </div>
-        <a class="btn btn-primary" href="contact.php">Get a Free Consultation</a>
+        <a class="btn btn-primary" href="contact">Get a Free Consultation</a>
       </div>
     </header>
   <main>
@@ -93,7 +105,7 @@
 <section class="cta-band section-pad">
       <div class="container cta-card reveal">
         <div><p class="eyebrow">Start Your Project</p><h2>Looking for a trusted women-led technology partner?</h2><p>Let us help you plan, build, test and launch your next software project.</p></div>
-        <a class="btn btn-primary" href="contact.php">Start a Conversation</a>
+        <a class="btn btn-primary" href="contact">Start a Conversation</a>
       </div>
     </section>
 </main>

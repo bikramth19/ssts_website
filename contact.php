@@ -28,11 +28,12 @@ if ($status === "success") {
   <meta property="og:url" content="https://shestrong.in/contact.php" />
   <meta property="og:image" content="https://shestrong.in/assets/img/og-image.svg" />
   <meta name="theme-color" content="#4b126d" />
-  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="assets/img/logo.png" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Shestrong Technology Services", "url": "https://shestrong.in/", "email": "contact@shestrong.in", "description": "Women empowerment-focused technology company providing software development, IT consulting, testing, healthcare software, education software, payment gateway integration, ecommerce, mobile apps and CCTV live camera web solutions.", "sameAs": []}</script>
 </head>
 <body>
@@ -49,35 +50,47 @@ if ($status === "success") {
   
     <header class="site-header" id="top">
       <div class="container nav-shell">
-        <a class="brand" href="index.html" aria-label="Shestrong Technology Services home">
-          <img src="assets/img/logo.svg" alt="Shestrong Technology Services logo" />
+        <a class="brand" href="./" aria-label="Shestrong Technology Services home">
+          <img src="assets/img/logo.png" alt="Shestrong Technology Services logo" />
           <span><strong>Shestrong</strong><small>Technology Services</small></span>
         </a>
         <nav class="main-nav" aria-label="Primary navigation">
-          <a class="nav-link " href="index.html">Home</a><a class="nav-link " href="about.html">About</a><a class="nav-link " href="services.html">Services</a><a class="nav-link " href="portfolio.html">Portfolio</a><a class="nav-link active" href="contact.php">Contact</a>
+          <a class="nav-link" href="./">Home</a>
+          <a class="nav-link " href="about">About</a>
+          <a class="nav-link " href="services">Services</a>
           <div class="nav-dropdown">
             <button class="nav-link dropdown-toggle" type="button">Solutions</button>
-            <div class="dropdown-menu"><a href="healthcare-software.html">Healthcare Software</a><a href="education-software.html">Education Software</a><a href="web-app-development.html">Web Application Development</a><a href="web-app-development.html#website-design">Website Design & Development</a><a href="web-app-development.html#ecommerce-apps">Ecommerce & Mobile App Development</a><a href="cctv-live-camera-web-solutions.html">CCTV Live Camera Web Management</a><a href="payment-gateway-integration.html#indian-payment-gateways">Indian Payment Gateway Integration</a><a href="payment-gateway-integration.html#crypto-payment-gateways">Worldwide Crypto Payment Gateway Integration</a></div>
+            <div class="dropdown-menu">
+              <a href="healthcare-software">Healthcare Software</a>
+              <a href="education-software">Education Software</a>
+              <a href="web-app-development">Web Application Development</a>
+              <a href="web-app-development#website-design">Website Design & Development</a>
+              <a href="web-app-development#ecommerce-apps">Ecommerce & Mobile App Development</a>
+              <a href="cctv-live-camera-web-solutions">CCTV Live Camera Web Management</a>
+              <a href="payment-gateway-integration#indian-payment-gateways">Indian Payment Gateway Integration</a>
+              <a href="payment-gateway-integration#crypto-payment-gateways">Worldwide Crypto Payment Gateway Integration</a>
+            </div>
           </div>
+          <a class="nav-link active" href="contact">Contact</a>          
         </nav>
         <div class="nav-actions">
-          <a class="btn btn-small btn-ghost" href="contact.php">Free Consultation</a>
+          <a class="btn btn-small btn-ghost" href="contact">Free Consultation</a>
           <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
         </div>
       </div>
       <div class="mobile-panel" id="mobilePanel">
-        <a class="nav-link " href="index.html">Home</a><a class="nav-link " href="about.html">About</a><a class="nav-link " href="services.html">Services</a><a class="nav-link " href="portfolio.html">Portfolio</a><a class="nav-link active" href="contact.php">Contact</a>
+        <a class="nav-link " href="./">Home</a><a class="nav-link " href="about">About</a><a class="nav-link " href="services">Services</a><a class="nav-link active" href="portfolio">Portfolio</a><a class="nav-link " href="contact">Contact</a>
         
         <div class="mobile-solutions">
           <strong>Solutions</strong>
-          <a href="healthcare-software.html">Healthcare Software</a>
-          <a href="education-software.html">Education Software</a>
-          <a href="web-app-development.html">Web & App Development</a>
-          <a href="payment-gateway-integration.html">Payment Gateway</a>
-          <a href="cctv-live-camera-web-solutions.html">CCTV Web Solutions</a>
-          <a href="software-testing-it-consulting.html">Testing & Consulting</a>
+          <a href="healthcare-software">Healthcare Software</a>
+          <a href="education-software">Education Software</a>
+          <a href="web-app-development">Web & App Development</a>
+          <a href="payment-gateway-integration">Payment Gateway</a>
+          <a href="cctv-live-camera-web-solutions">CCTV Web Solutions</a>
+          <a href="software-testing-it-consulting">Testing & Consulting</a>
         </div>
-        <a class="btn btn-primary" href="contact.php">Get a Free Consultation</a>
+        <a class="btn btn-primary" href="contact">Get a Free Consultation</a>
       </div>
     </header>
   <main>
@@ -115,13 +128,17 @@ if ($status === "success") {
       <div class="footer-aurora"></div>
       <div class="container footer-grid">
         <div class="footer-brand">
-          <a class="brand footer-logo" href="index.html"><img src="assets/img/logo.svg" alt="Shestrong logo" /><span><strong>Shestrong</strong><small>Technology Services</small></span></a>
+          <a class="brand footer-logo" href="index.html"><img src="assets/img/logo.png" alt="Shestrong logo" /><span><strong>Shestrong</strong><small>Technology Services</small></span></a>
           <p>Empowering businesses through technology.</p>
-          <div class="social-row" aria-label="Social media links"><a href="#" aria-label="LinkedIn">in</a><a href="#" aria-label="Instagram">ig</a><a href="#" aria-label="Facebook">fb</a></div>
+          <div class="social-row" aria-label="Social media links">
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+          </div>
         </div>
-        <div><h3>Quick Links</h3><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="contact.php">Contact</a></li></ul></div>
+        <div><h3>Quick Links</h3><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="support.shestrong.in" target="blank">Support Ticket</a></li><li><a href="contact.php">Contact</a></li></ul></div>
         <div><h3>Services</h3><ul><li><a href="healthcare-software.html">Healthcare Software</a></li><li><a href="education-software.html">Education Software</a></li><li><a href="web-app-development.html">Web Application Development</a></li><li><a href="web-app-development.html#website-design">Website Design & Development</a></li><li><a href="web-app-development.html#ecommerce-apps">Ecommerce & Mobile App Development</a></li><li><a href="cctv-live-camera-web-solutions.html">CCTV Live Camera Web Management</a></li><li><a href="payment-gateway-integration.html#indian-payment-gateways">Indian Payment Gateway Integration</a></li><li><a href="payment-gateway-integration.html#crypto-payment-gateways">Worldwide Crypto Payment Gateway Integration</a></li></ul></div>
-        <div><h3>Contact</h3><ul class="footer-contact"><li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M3 7l9 7 9-7"/></svg> <a href="mailto:contact@shestrong.in">contact@shestrong.in</a></li><li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07A19.5 19.5 0 0 1 3.15 10.8 19.8 19.8 0 0 1 .08 2.18 2 2 0 0 1 2.06 0h3a2 2 0 0 1 2 1.72c.13.96.35 1.9.67 2.8a2 2 0 0 1-.45 2.11L6 7.91a16 16 0 0 0 6.09 6.09l1.28-1.28a2 2 0 0 1 2.11-.45c.9.32 1.84.54 2.8.67A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+919999999999">+91 99999 99999</a></li><li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6 7-13a7 7 0 1 0-14 0c0 7 7 13 7 13z"/><circle cx="12" cy="9" r="2.5"/></svg> India · shestrong.in</li></ul><a class="btn btn-light" href="contact.php">Contact Shestrong Today</a></div>
+        <div><h3>Contact</h3><ul class="footer-contact"><li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M3 7l9 7 9-7"/></svg> <a href="mailto:contact@shestrong.in">contact@shestrong.in</a></li><li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07A19.5 19.5 0 0 1 3.15 10.8 19.8 19.8 0 0 1 .08 2.18 2 2 0 0 1 2.06 0h3a2 2 0 0 1 2 1.72c.13.96.35 1.9.67 2.8a2 2 0 0 1-.45 2.11L6 7.91a16 16 0 0 0 6.09 6.09l1.28-1.28a2 2 0 0 1 2.11-.45c.9.32 1.84.54 2.8.67A2 2 0 0 1 22 16.92z"/></svg> <a href="tel:+91 8431328187">+91 8431328187</a></li><li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6 7-13a7 7 0 1 0-14 0c0 7 7 13 7 13z"/><circle cx="12" cy="9" r="2.5"/></svg> India · shestrong.in</li></ul></div>
       </div>
       <div class="container footer-bottom"><p>© 2026 Shestrong Technology Services. All Rights Reserved.</p><a href="#top">Back to top ↑</a></div>
     </footer>
